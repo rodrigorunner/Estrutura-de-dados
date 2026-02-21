@@ -122,14 +122,18 @@ int main() {
             break;
             
             case 3:
-                printf("\n--- ITENS NA MOCHILA --- %d/10\n", totalItems);
-                printf("\nNOME    | TIPO    | QUANTIDADE\n");
-                printf("------------------------------------------\n");
-
-                for(int i = 0; i < totalItems; i++) {
-                    printf("%s   |    %s   |    %d   ", items[i].name, items[i].type, items[i].quanty);
-                    printf("\n------------------------------------------\n");
-                    printf("\n");
+                if(totalItems != 0) {
+                    printf("\n--- ITENS NA MOCHILA --- %d/10\n", totalItems);
+                    printf("\nNOME    | TIPO    | QUANTIDADE\n");
+                    printf("------------------------------------------\n");
+    
+                    for(int i = 0; i < totalItems; i++) {
+                        printf("%s   |    %s   |    %d   ", items[i].name, items[i].type, items[i].quanty);
+                        printf("\n------------------------------------------\n");
+                        printf("\n");
+                    }
+                } else {
+                    printf("\nMochila vazia.\n\n");
                 }
             break;
 
