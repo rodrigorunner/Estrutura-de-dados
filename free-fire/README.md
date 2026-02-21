@@ -1,6 +1,6 @@
 # Objetivo
 
-Sua missão é construir um sistema de inventário que simule a mochila de loot inicial do jogador. Para isso, você criará uma struct chamada Item, que armazenará informações essenciais de cada objeto coletado. O sistema permitirá que o jogador cadastre, remova, liste.
+Sua missão é construir um sistema de inventário que simule a mochila de loot inicial do jogador. Para isso, você criará uma struct chamada Item, que armazenará informações essenciais de cada objeto coletado. O sistema permitirá que o jogador cadastre, remova e liste.
 
 # Requisitos funcionais
 
