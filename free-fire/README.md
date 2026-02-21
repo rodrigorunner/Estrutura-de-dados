@@ -4,7 +4,7 @@ Sua missão é construir um sistema de inventário que simule a mochila de loot 
 
 # Requisitos funcionais
 
-Confira as principais funcionalidades do sistema a serem implementadas:
+## Confira as principais funcionalidades do sistema a serem implementadas:
  
 Criação da struct: definir uma struct chamada Item com os campos char nome[30], char tipo[20] e int quantidade.
  
