@@ -6,7 +6,6 @@
 #define SIZE_NAME 30
 #define SIZE_TYPE 20
 #define SIZE_ITEMS 10
-#define GAME_OVER 0
 #define REMOVE_INDEX -1
 
 typedef struct {
